@@ -37,7 +37,15 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "bibliback",
+    'rest_framework',
+
 ]
+
+
+
+CSRF_TRUSTED_ORIGINS=['https://localhost:8000']
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
